@@ -111,7 +111,7 @@ export const MOCK_PRODUCTS: Product[] = [
         rating: 4,
         date: '15 Aug 2026',
         title: 'Very premium phone',
-        comment: 'Fast delivery by Flipkart within 24 hours. The screen quality is unmatched.',
+        comment: 'Fast delivery by AK Store within 24 hours. The screen quality is unmatched.',
         verified: true
       }
     ]
@@ -188,7 +188,7 @@ export const MOCK_PRODUCTS: Product[] = [
     inStock: true,
     bankOffers: [
       '₹2,000 Instant SBI Credit Card Discount',
-      '5% Unlimited Cashback on Flipkart Axis Bank Card'
+      '5% Unlimited Cashback on AK Co-branded Card'
     ],
     reviews: []
   },
@@ -287,7 +287,7 @@ export const MOCK_PRODUCTS: Product[] = [
     },
     deliveryDays: 1,
     inStock: true,
-    bankOffers: ['5% Unlimited Cashback on Flipkart Axis Card'],
+    bankOffers: ['5% Unlimited Cashback on AK Bank Card'],
     reviews: []
   },
   {

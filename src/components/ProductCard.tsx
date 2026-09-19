@@ -57,7 +57,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
               {product.brand}
             </span>
 
-            {/* Flipkart Assured Badge */}
+            {/* AK Assured Badge */}
             {product.isAssured && (
               <span className="bg-blue-600 text-yellow-300 font-extrabold italic text-[9px] px-1 py-0.2 rounded-sm flex items-center gap-0.5 shadow-2xs">
                 <ShieldCheck className="w-2.5 h-2.5 text-yellow-300" /> Assured

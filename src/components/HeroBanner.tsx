@@ -90,7 +90,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({ onBannerClick }) => {
                 {currentBanner.ctaText}
               </button>
               <span className="text-xs text-blue-200 flex items-center gap-1">
-                <ShieldCheck className="w-4 h-4 text-green-400" /> Flipkart Assured Guarantee
+                <ShieldCheck className="w-4 h-4 text-amber-300" /> AK Assured Guarantee
               </span>
             </div>
           </div>

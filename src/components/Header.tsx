@@ -129,19 +129,24 @@ export const Header: React.FC<HeaderProps> = ({
                 onSelectCategory(undefined);
                 onSearch('');
               }}
-              className="flex flex-col items-start focus:outline-none group text-left"
+              className="flex items-center gap-2 focus:outline-none group text-left"
             >
-              <div className="flex items-center gap-1">
-                <span className="font-extrabold italic text-xl sm:text-2xl tracking-tight text-white group-hover:text-yellow-300 transition-colors">
-                  Flipkart
-                </span>
-                <span className="bg-yellow-400 text-[#2874f0] font-black italic text-xs px-1 rounded-sm uppercase tracking-wider">
-                  Plus
-                </span>
+              <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-amber-400 via-yellow-400 to-amber-500 text-[#0f2850] font-black text-xl flex items-center justify-center shadow-md tracking-tighter border border-amber-200/50 group-hover:scale-105 transition-transform">
+                AK
               </div>
-              <div className="flex items-center text-[10px] text-yellow-200 font-medium tracking-normal -mt-0.5">
-                Explore <span className="text-yellow-400 font-bold mx-0.5">Plus</span>
-                <span className="text-yellow-400 ml-0.5 font-extrabold">✦</span>
+              <div className="flex flex-col justify-center">
+                <div className="flex items-center gap-1.5">
+                  <span className="font-extrabold italic text-xl sm:text-2xl tracking-tight text-white group-hover:text-amber-300 transition-colors">
+                    AK Store
+                  </span>
+                  <span className="bg-amber-400 text-[#0f2850] font-black italic text-[10px] px-1.5 py-0.5 rounded-sm uppercase tracking-wider shadow-sm">
+                    Prime
+                  </span>
+                </div>
+                <div className="flex items-center text-[10px] text-amber-200 font-medium tracking-normal -mt-0.5">
+                  Explore <span className="text-amber-300 font-bold mx-0.5">AK Prime</span>
+                  <span className="text-amber-300 ml-0.5 font-extrabold">✦</span>
+                </div>
               </div>
             </button>
 
@@ -232,7 +237,7 @@ export const Header: React.FC<HeaderProps> = ({
                   <div className="px-4 py-2.5 bg-blue-50 border-b border-blue-100 flex items-center justify-between">
                     <div>
                       <p className="text-xs text-gray-500">New customer?</p>
-                      <p className="text-xs font-bold text-[#2874f0]">Sign Up for Flipkart Plus</p>
+                      <p className="text-xs font-bold text-[#2874f0]">Sign Up for AK Prime</p>
                     </div>
                   </div>
                   <button
@@ -263,7 +268,7 @@ export const Header: React.FC<HeaderProps> = ({
               href="#become-seller"
               onClick={(e) => {
                 e.preventDefault();
-                alert('Flipkart Seller Hub: Register your business today to reach millions of Indian buyers!');
+                alert('AK Seller Hub: Register your business today to reach millions of buyers!');
               }}
               className="hidden lg:block hover:text-yellow-300 transition-colors text-xs font-semibold whitespace-nowrap"
             >
@@ -413,7 +418,7 @@ export const Header: React.FC<HeaderProps> = ({
                 </p>
               </div>
               <div className="text-xs text-blue-200">
-                <span className="font-bold">Flipkart</span> Secure Verification System
+                <span className="font-bold">AK Store</span> Secure Verification System
               </div>
             </div>
             <div className="flex-1 p-6 flex flex-col justify-center">
@@ -434,7 +439,7 @@ export const Header: React.FC<HeaderProps> = ({
                 Request OTP
               </button>
               <p className="text-[11px] text-gray-500 text-center">
-                By continuing, you agree to Flipkart's <a href="#" className="text-blue-600 underline">Terms of Use</a> and <a href="#" className="text-blue-600 underline">Privacy Policy</a>.
+                By continuing, you agree to AK's <a href="#" className="text-blue-600 underline">Terms of Use</a> and <a href="#" className="text-blue-600 underline">Privacy Policy</a>.
               </p>
             </div>
           </div>

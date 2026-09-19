@@ -140,7 +140,7 @@ export const SecureCheckoutModal: React.FC<SecureCheckoutModalProps> = ({
           <div className="flex items-center gap-2">
             <Lock className="w-5 h-5 text-yellow-300" />
             <h2 className="font-extrabold text-base sm:text-lg tracking-tight">
-              Flipkart 256-Bit Secure Payment Checkout
+              AK 256-Bit Secure Payment Checkout
             </h2>
           </div>
           <div className="flex items-center gap-3">
@@ -537,7 +537,7 @@ export const SecureCheckoutModal: React.FC<SecureCheckoutModalProps> = ({
                 Order Confirmed!
               </h2>
               <p className="text-xs text-gray-600">
-                Thank you for your order on Flipkart India. Your payment was verified securely.
+                Thank you for your order on AK Store. Your payment was verified securely.
               </p>
 
               <div className="bg-blue-50/70 p-4 rounded border border-blue-100 text-left space-y-2 text-xs">

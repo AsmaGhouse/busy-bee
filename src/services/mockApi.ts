@@ -92,7 +92,12 @@ export const mockApi = {
     return Array.from(matches).slice(0, 6);
   },
 
-  checkPincode: async (pincode: string) => {
+  checkPincode: async (
+    pincode: string
+  ): Promise<
+    | { serviceable: true; city: string; state: string; deliveryDays: number; message: string }
+    | { serviceable: false; message: string }
+  > => {
     await new Promise((resolve) => setTimeout(resolve, 200));
     const info = MOCK_PINCODES[pincode];
     if (info) {
@@ -159,7 +164,7 @@ export const mockApi = {
       month: 'short'
     });
 
-    let paymentDetailsStr = paymentDetails.method;
+    let paymentDetailsStr: string = paymentDetails.method;
     if (paymentDetails.method === 'UPI') paymentDetailsStr = `UPI (${paymentDetails.upiId})`;
     if (paymentDetails.method === 'CARD') paymentDetailsStr = `Card ending in ****${paymentDetails.cardNumber?.slice(-4)}`;
     if (paymentDetails.method === 'NET_BANKING') paymentDetailsStr = `Net Banking (${paymentDetails.bankName || 'HDFC'})`;

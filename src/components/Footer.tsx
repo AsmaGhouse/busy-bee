@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
           <div className="flex items-center gap-3">
             <Gift className="w-6 h-6 text-yellow-400 shrink-0" />
             <div>
-              <p className="font-bold text-white">Flipkart SuperCoins</p>
+              <p className="font-bold text-white">AK Rewards & Coins</p>
               <p className="text-[11px] text-gray-400">Earn rewards on every order</p>
             </div>
           </div>
@@ -50,7 +50,7 @@ export const Footer: React.FC = () => {
             <li><a href="#" className="hover:underline">Contact Us</a></li>
             <li><a href="#" className="hover:underline">About Us</a></li>
             <li><a href="#" className="hover:underline">Careers</a></li>
-            <li><a href="#" className="hover:underline">Flipkart Stories</a></li>
+            <li><a href="#" className="hover:underline">AK Stories</a></li>
             <li><a href="#" className="hover:underline">Press & Media</a></li>
             <li><a href="#" className="hover:underline">Corporate Information</a></li>
           </ul>
@@ -99,7 +99,7 @@ export const Footer: React.FC = () => {
             Registered Office Address:
           </h4>
           <p className="text-gray-400 leading-relaxed text-[11px]">
-            Flipkart Internet Private Limited,<br />
+            AK Retail Private Limited,<br />
             Buildings Alyssa, Begonia & Clove Embassy Tech Village,<br />
             Outer Ring Road, Devarabeesanahalli Village,<br />
             Bengaluru, 560103, Karnataka, India<br />
@@ -122,7 +122,7 @@ export const Footer: React.FC = () => {
             <span>Help Center</span>
           </div>
 
-          <p>© 2007-2026 Flipkart.com. All Rights Reserved.</p>
+          <p>© 2007-2026 AK Store. All Rights Reserved.</p>
 
           <div className="flex items-center gap-2">
             <span className="font-bold text-gray-300">Accepted Payments:</span>

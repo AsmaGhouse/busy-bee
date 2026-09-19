@@ -57,12 +57,12 @@ export const ProductFilters: React.FC<ProductFiltersProps> = ({
         </button>
       </div>
 
-      {/* Flipkart Assured Filter */}
+      {/* AK Assured Filter */}
       <div className="bg-blue-50/60 p-2.5 rounded border border-blue-100 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <ShieldCheck className="w-5 h-5 text-blue-600" />
+          <ShieldCheck className="w-5 h-5 text-amber-500" />
           <div>
-            <p className="text-xs font-bold text-gray-900">Flipkart Assured</p>
+            <p className="text-xs font-bold text-gray-900">AK Assured</p>
             <p className="text-[10px] text-gray-500">Quality checked products</p>
           </div>
         </div>

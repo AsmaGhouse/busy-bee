@@ -130,8 +130,8 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                   {product.brand}
                 </span>
                 {product.isAssured && (
-                  <span className="bg-blue-600 text-yellow-300 font-extrabold italic text-xs px-2 py-0.5 rounded flex items-center gap-1">
-                    <ShieldCheck className="w-3.5 h-3.5" /> Flipkart Assured
+                  <span className="bg-amber-500 text-blue-950 font-extrabold italic text-xs px-2 py-0.5 rounded flex items-center gap-1 shadow-sm">
+                    <ShieldCheck className="w-3.5 h-3.5" /> AK Assured
                   </span>
                 )}
               </div>
